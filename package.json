@@ -1,13 +1,13 @@
 {
   "name": "backend-app-cuando-comprar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Link en fl0 https://backend-aplicacion-s2x7-dev.fl0.io/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "KNC",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
