@@ -7,6 +7,6 @@ app.use('/', apiRouter);
 
 // Resto de la configuración del servidor...
 
-app.listen(3000, () => {
-    console.log('Servidor en funcionamiento en http://localhost:3000');
+app.listen(8080, () => {
+    console.log('Servidor en funcionamiento en http://localhost:8080');
 });
