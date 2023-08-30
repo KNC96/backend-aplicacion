@@ -1,14 +1,13 @@
 const express = require('express');
+const cors = require('cors'); // Importa el paquete cors
 const apiRouter = require('./ApiRuta');
 const app = express();
 
+// Configura el middleware cors para todas las rutas
+app.use(cors());
+
 // Asociar el enrutador a una ruta base
 app.use('/', apiRouter);
-app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'http://localhost:19006');
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    next();
-  });
 
 // Resto de la configuración del servidor...
 
